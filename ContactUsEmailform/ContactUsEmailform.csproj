@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdministratorPage.aspx" />
     <Content Include="ContactUs.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdministratorPage.aspx.cs">
+      <DependentUpon>AdministratorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdministratorPage.aspx.designer.cs">
+      <DependentUpon>AdministratorPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ContactUs.aspx.cs">
       <DependentUpon>ContactUs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
