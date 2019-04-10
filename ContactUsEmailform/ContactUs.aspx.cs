@@ -54,5 +54,13 @@ namespace ContactUsEmailform
                 lblMessageConfirmation.Text = ex.StackTrace;
             }
             }
+
+        protected void btnClear_Click(object sender, EventArgs e)
+        {
+            txtName.Text = "";
+            txtEmail.Text = "";
+            txtSubject.Text = "";
+            txtContent.Text = "";
+        }
     }
 }

@@ -90,6 +90,7 @@
                     <tr>
                         <td colspan="3">
                             <asp:Button ID="btnSubmit" runat="server" Text="Send Message via e-mail" OnClick="btnSubmit_Click" />
+                            <asp:Button ID="btnClear" runat="server" Text="     Clear Information        " OnClick="btnClear_Click" />
                         </td>
                     </tr>
                 </table>
